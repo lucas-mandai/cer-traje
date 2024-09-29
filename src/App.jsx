@@ -1,3 +1,5 @@
+import { lazy, Suspense } from "react";
+
 import Header from "./sections/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Features from "./sections/Features.jsx";
@@ -6,7 +8,10 @@ import Faq from "./sections/Faq.jsx";
 // import Testimonials from "./sections/Testimonials.jsx";
 // import Download from "./sections/Download.jsx";
 import Footer from "./sections/Footer.jsx";
-import Video from "./sections/Video.jsx";
+// import Video from "./sections/Video.jsx";
+
+
+const Video = lazy(() => import("./sections/Video.jsx"))
 
 const App = () => {
   return (
@@ -14,7 +19,10 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
-      <Video />
+      <Suspense fallback={<p>Loading...</p>}>
+        <Video />
+      </Suspense>
+
       <Pricing />
       <Faq />
       {/* <Testimonials /> */}
