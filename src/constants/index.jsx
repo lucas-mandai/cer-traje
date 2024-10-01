@@ -99,7 +99,7 @@ export const faq = [
     id: "8",
     question: "O treinamento com o traje doi?",
     answer:
-      "Graças a nova geração da tecnologia EMS, o usuário não tem sensações desagradáveis. Ele provoca contrações musculares assim como num treinamento com halteres, e do mesmo modo pode ocorre fadiga muscular.",
+      "Graças a nova geração da tecnologia EMS, o usuário não tem sensações desagradáveis. Ele provoca contrações musculares assim como num treinamento com halteres, e do mesmo modo pode ocorrer fadiga muscular.",
   },
   {
     id: "9",

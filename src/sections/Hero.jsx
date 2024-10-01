@@ -11,7 +11,7 @@ const Hero = () => {
               Técnologia ao seu favor
             </div>
             <h1 className="mb-6 h2 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-4xl max-md:leading-12">
-              Utilize nossos trajes de treinamento
+              Utilize nosso traje de treinamento
             </h1>
             <p className="max-w-440 mb-14 body-1 max-md:mb-10">
               Apresentamos o revolucionário Traje de Eletroestimulação Muscular agora disponível para você utilizar no Centro de Excelência em Reabilitação de Lins
