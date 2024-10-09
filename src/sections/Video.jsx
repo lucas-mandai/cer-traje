@@ -32,7 +32,7 @@ const Video = () => {
                         </div>
                     </div>
                     <div className="pt-28 max-md:pt-20">
-                        <h2 className=" mb-7 lg:h4  text-p4 max-md:mb-6 max-md:text-3xl max-md:font-semibold text-left lg:text-center">Confira as entrevistas e conheça mais sobre Eletroestimulação</h2>
+                        <h2 className=" mb-7 lg:h5  text-p4 max-md:mb-6 max-md:text-3xl max-md:font-semibold text-left lg:text-center">Confira as entrevistas e conheça mais sobre Eletroestimulação</h2>
                         <div className="flex flex-wrap justify-around gap-y-8">
                             <div className="lg:w-9/20">
                                 <video className=" object-cover rounded-md" controls>
